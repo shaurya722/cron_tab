@@ -16,7 +16,7 @@ def document_expired_check():
     # Your email sending logic
         subject = "Scheduled Email"
         message = f"This is a test email sent at {datetime.now()}."
-        recipient_list = ["joshishaurya31@gmail.com"]  
+        recipient_list = [".com"]  
 
         # Send email using Django's built-in send_mail function
         send_mail(
